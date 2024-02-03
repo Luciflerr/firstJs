@@ -56,3 +56,16 @@ if (password.length >= 6 && password.indexOf(' ')) {
 else {
     console.log('IncorrectPassword')
 }
+// Veya kısımı örnek
+
+let yasiniz = prompt('Yasinizi giriniz.');
+
+if (yasiniz < 5 || yasiniz >= 65) {
+    console.log('Free')
+}
+if else (yasiniz <= 10) {
+    console.log('10 dolar')
+}
+if else (yasiniz <= 20) {
+    console.log('20 dolar')
+}
