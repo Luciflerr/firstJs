@@ -28,3 +28,31 @@ if (phrase === 'stop') {
    else {
        console.log('purple')
    }
+//password
+
+const password = prompt('Enter your password');
+
+if (password.length >= 6) {
+    console.log('Yeterince uzun password')
+}
+else {
+    console.log('Kısa password')
+} 
+
+if (password.indexOf(' ') === -1) {
+    console.log('Boşluk yok')
+}
+else {
+    console.log('Boşluk var tekrar deneyiniz.')
+}
+
+//bunun daha kısa bir versiyonu yani daha optimize versiyonunu altına yazıyorum
+
+const password = prompt('Enter your password');
+
+if (password.length >= 6 && password.indexOf(' ')) {
+    console.log('Correct Password')
+}
+else {
+    console.log('IncorrectPassword')
+}
