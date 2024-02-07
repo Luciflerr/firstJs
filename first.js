@@ -78,6 +78,10 @@ const airplaneSeats = [
     ['Rin', 'Sakura', 'Francisco']
 ];
 
-// YOUR CODE GOES BELOW THIS LINE:
-
 airplaneSeats [3][1] = "Hugo";
+
+const kitchen {
+    isFunny : true,
+    favNum   : 211.7,
+    colors   : ['red', 'blue']
+};
