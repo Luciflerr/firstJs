@@ -85,3 +85,18 @@ const kitchen {
     favNum   : 211.7,
     colors   : ['red', 'blue']
 };
+
+//////
+
+const midterms {
+    danielle : 96,
+    thomas : 87
+}
+
+midterms['danielle'] = 'A+'
+
+midterms['thomas'] = 'A'
+
+midterms.ezra = 'B+'
+
+midterms.antonio = 'C+'
