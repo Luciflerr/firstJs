@@ -100,3 +100,12 @@ midterms['thomas'] = 'A'
 midterms.ezra = 'B+'
 
 midterms.antonio = 'C+'
+
+///////////////////////
+let input = prompt('Hey, Say something')
+while (true) {
+    input = prompt(input)
+    if (input.toLowerCase() === 'stop copying me') break;
+}
+console.log('Ok You Win!')
+///////////////////////////
