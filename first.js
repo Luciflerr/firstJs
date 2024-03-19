@@ -128,3 +128,20 @@ console.log(targetNum)
 ///////////////////////////
 
 ///////////////////////////
+let isim = prompt("Adınızı girin:");
+if (isim == "eray") {
+console.log("Hoşgeldin Eray");
+}
+else if (isim == "damla") { console.log("Hoşgeldin Damla.") }
+else if (isim == "buğra") { console.log("Hoşgeldin Buğra.") }
+else { console.log ("Hoşgeldiniz fakat sizi tanımıyoruz.") }
+
+—————————————-
+—————————————-
+
+let eray;
+prompt("İsminizi giriniz.");
+for (eray = "eray"; eray == eray;) {
+console.log("Hoşgeldin Eray");
+break;
+}
