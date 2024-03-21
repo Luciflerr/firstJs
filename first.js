@@ -166,7 +166,12 @@ console.log(toplam);
 parseInt yazmamızın sebebi kullanıcının sayı girmesi için. 
 —————————————
 —————————————
-
+Bir öğrencinin almış olduğu vize ve final notunu hesaplayan kod JS:
+let vize = parseInt(prompt("Vize notunuzu giriniz:"));
+let final = parseInt(prompt("Final notunuzu giriniz:"));
+let vize40 = vize / 40;
+let final60 = final / 60;
+console.log((vize40 + final60) / 2);
 —————————————
 —————————————
 
