@@ -174,7 +174,18 @@ let final60 = final / 60;
 console.log((vize40 + final60) / 2);
 —————————————
 —————————————
+3 sayıdan en büyüğünü bulan kod JS:
+let sayi1 = parseInt(prompt("Sayı Gir:"));
+let sayi2 = parseInt(prompt("Sayı Gir:"));
+let sayi3 = parseInt(prompt("Sayı Gir:"));
 
+if(sayi1 > sayi2 && sayi1 > sayi3) {
+    console.log("En büyük yazılan rakam : " + sayi1);
+} else if(sayi2 > sayi1 && sayi2 > sayi3) {
+    console.log("En büyük yazılan rakam : " + sayi2);
+} else if(sayi3 > sayi1 && sayi3 > sayi2){
+    console.log("En büyük yazılan rakam : " + sayi3);
+}
 —————————————
 —————————————
 
