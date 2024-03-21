@@ -145,3 +145,36 @@ for (eray = "eray"; eray == eray;) {
 console.log("Hoşgeldin Eray");
 break;
 }
+—————————————
+—————————————
+//Girilen iki sayıdan hangisinin daha küçük olduğunu yazdıran kod JS:
+let sayi = parseInt(prompt("Sayı giriniz."));
+let sayi2 = parseInt(prompt("Sayı Giriniz."));
+if(sayi > sayi2) {
+    console.log(sayi2);
+}
+else{
+    console.log(sayi);
+}
+—————————————
+—————————————
+//Ortalamasını hesaplayan kod js:
+let sayi = parseInt(prompt("İlk Sayı"));
+let sayi2 = parseInt(prompt("Son Sayı"));
+let toplam = (sayi + sayi2) / 2;
+console.log(toplam);
+parseInt yazmamızın sebebi kullanıcının sayı girmesi için. 
+—————————————
+—————————————
+
+—————————————
+—————————————
+
+—————————————
+—————————————
+
+—————————————
+—————————————
+
+—————————————
+—————————————
