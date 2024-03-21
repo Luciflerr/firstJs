@@ -1,1 +1,1 @@
-Burası deneme yaptığım alan.
+Burası pratik yaptığım alan. Bazen öğrendiğim bazen denediğim şeyleri burada paylaşacağım.
